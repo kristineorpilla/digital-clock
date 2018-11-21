@@ -7,8 +7,17 @@ var m = d.getMinutes();
 
 console.log(d.getMinutes());
 
-function time(getHours, getMinutes) {
-  d + " : " + m;
+function time(hours, minutes) {
+  return hours + " : " + minutes;
 }
 
-console.log(time());
+console.log(time(h, m));
+
+function add0(minutes) {
+  if (minutes < 10) {
+    return str.
+  } 
+  else {
+
+  }
+}
