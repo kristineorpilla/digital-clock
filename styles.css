@@ -1,5 +1,4 @@
 h1 {
-<<<<<<< HEAD
   font-family: Tahoma, sans-serif;
   color: white;
   text-align: center;
@@ -16,23 +15,5 @@ body {
   background-color: #49fb35;
   margin: auto;
   border-radius: 50px;
-=======
-	font-family: Tahoma, sans-serif;
-	color: white;
-	text-align: center;
-	font-size: 40px;
-}
-
-body {
-	background-color: black;
-}
-
-.rectangle {
-	height: 500px;
-	width: 1000px;
-	background-color: #49fb35;
-	margin: auto;
-	border-radius: 50px;
->>>>>>> 10620cf03c07da5071bfb664874bc835a03b7dbe
 }
 
