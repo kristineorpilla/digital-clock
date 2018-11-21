@@ -8,7 +8,7 @@ var m = d.getMinutes();
 console.log(d.getMinutes());
 
 function time(getHours, getMinutes) {
-  getHours + " : " + getMinutes
+  d + " : " + m;
 }
 
 console.log(time(getHours(), getMinutes()));
