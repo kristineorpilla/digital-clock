@@ -11,4 +11,4 @@ function time(getHours, getMinutes) {
   d + " : " + m;
 }
 
-console.log(time(getHours(), getMinutes()));
+console.log(time());
