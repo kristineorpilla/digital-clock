@@ -8,4 +8,3 @@ function time() {
 
 setInterval(time, 0);
 
-
