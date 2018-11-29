@@ -17,3 +17,13 @@ body {
   border-radius: 50px;
 }
 
+.time {
+  height: 450px;
+  width: 950px;
+  margin: auto;
+  border-radius: 50px;
+}
+
+#clock {
+  color: black;
+}
