@@ -8,12 +8,6 @@ function time() {
   else {
   	m = m;
   }
-  if (h > 12) {
-  	h = h - 12;
-  }
-  else {
-  	h = h;
-  }
   if (h < 10) {
   	h = "0" + h;
   }
@@ -24,3 +18,11 @@ function time() {
 }
 
 setInterval(time, 0);
+
+// function bgchange (background, frames) {
+//   var background = 1;
+
+//   function change() {
+//     document.getElementById = 
+//   }
+// }
