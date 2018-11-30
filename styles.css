@@ -9,7 +9,7 @@ body {
   background-color: black;
 }
 
-@keyframes images {
+/*@keyframes images {
     0%   {background-image: url("images/birthday.jpg");}
     20%  {background-image: url("images/carnival.jpg");}
     40%  {background-image: url("images/council.jpg");}
@@ -17,15 +17,17 @@ body {
     60%  {background-image: url("images/loc.jpg");}
     80%  {background-image: url("images/pool.jpg");}
     100% {background-image: url("images/jungkook.jpeg");}
-}
+}*/
 
 .rectangle {
   height: 500px;
   width: 1000px;
-  animation: images 60s infinite;
+/*  animation: images 60s infinite;*/
   margin: auto;
   border-radius: 50px;
-
+  align-content: center;
+  background-color: #39ff14;
+/*  background-size: cover;*/
 }
 
 .clockbox {
@@ -36,11 +38,8 @@ body {
 }
 
 #clock {
-  color: white;
+  color: black;
   font-size: 326px;
   text-align: center;
   padding-top: 56px;
 }
-
-
-
