@@ -18,11 +18,3 @@ function time() {
 }
 
 setInterval(time, 0);
-
-// function bgchange (background, frames) {
-//   var background = 1;
-
-//   function change() {
-//     document.getElementById = 
-//   }
-// }
