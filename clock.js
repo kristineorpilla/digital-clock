@@ -1,13 +1,12 @@
 function time() {
-  var d = new Date(2018, 11, 24, 0, 59, 30, 0);
+  var d = new Date();
   var h = d.getHours();
   var m = d.getMinutes();
 
   var x = "AM"; 
 
-  h = midnight(h);
   x = apm(h, x);
-  h = zero(change(h));
+  h = zero(change(midnight(h)));
   m = zero(m);
 
 
@@ -26,7 +25,7 @@ function zero(n) {
 }
 
 function change(h) {
-  if (h > 12) {
+  if (h >= 13) {
     return h = h - 12;
   }
   else {
@@ -44,8 +43,8 @@ function apm(h, x) {
 }
 
 function midnight(h) {
-  if (h = 0) {
-    return h = "12";
+  if (h === 0) {
+    return h = 12;
   }
   else {
     return h = h;
